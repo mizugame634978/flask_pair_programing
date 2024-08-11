@@ -15,3 +15,12 @@
   return render_template("hello.html",city=city)
   ```
   でやるとhtmlで使える(右がPythonで定義したもので、左がhtml関数の引数てきなもの)
+
+dbを作るのに、対話モードに入る
+from app import app,db
+>>> with app.app_context():
+...      db.create_all()
+...
+>>> exit()
+このソースコードを打ち込むと、instanceのなかにDBができる
+exit()までやると、作成される
