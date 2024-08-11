@@ -10,3 +10,8 @@
 - vscodeで変数をせ託した状態でctrl + dを押すと、同じ名前の変数を選択できる
 - Python 3.12.3 and 3.12.5
 - windows11
+- Pythonの変数の引数を
+  ```python
+  return render_template("hello.html",city=city)
+  ```
+  でやるとhtmlで使える(右がPythonで定義したもので、左がhtml関数の引数てきなもの)
