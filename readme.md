@@ -24,3 +24,5 @@ from app import app,db
 >>> exit()
 このソースコードを打ち込むと、instanceのなかにDBができる
 exit()までやると、作成される
+
+-  $env:FLASK_APP = "app"  
